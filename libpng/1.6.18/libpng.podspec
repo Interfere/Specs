@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary           = "The free reference library for reading and writing PNGs"
 
   s.homepage          = "http://www.libpng.org/"
-  s.license           = { :type => "Open Source", :file => "libpng-LICENSE.txt" }
+  s.license           = { :type => "Open Source", :file => "LICENSE" }
   s.author            = { "Alexey Komnin" => "interfere.work@gmail.com" }
 
   s.source            = { :git => "https://github.com/glennrp/libpng.git", :tag => "v#{s.version}" }
