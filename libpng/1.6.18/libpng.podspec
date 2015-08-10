@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source            = { :git => "https://github.com/glennrp/libpng.git", :tag => "v#{s.version}" }
   s.requires_arc      = false
 
-  s.platform          = :ios
+  s.platforms         = { :ios => '7.0', :osx => '10.7' }
   s.prepare_command   = "cp -v scripts/pnglibconf.h.prebuilt ./pnglibconf.h"
   s.source_files      = "*.{h,c}"
   s.exclude_files     = "example.c", "pngpread.c", "pngtest.c"
